@@ -69,6 +69,8 @@ const Work = () => {
         {/* projects */}
         <ProjectA demo={demo.src} projectlink = 'https://ibrahim-eshop-v8.vercel.app' setProjectLink = {setProjectLink} name='Ecommerce App' setProjectName = {setProjectName} count={1} setCounter = {setCounter}/>
         <Project demo={demo.src} projectlink = '/' setProjectLink = {setProjectLink} name='Diet Tracker' setProjectName = {setProjectName} count={2} setCounter = {setCounter}/>
+        <div className='w-full h-[100px]'></div>
+         <div className='bg-primary w-full h-[100px] rounded-t-[100px] z-30 absolute bottom-0'></div>
     </div>
   )
 }
