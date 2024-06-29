@@ -10,7 +10,7 @@ const About = () => {
             <div className='bg-secondary h-[4px] w-[50px] rounded-xl ml-[42px] '></div>
               </div>
             </div>
-            <div className="text-center w-[40vw] font-light mt-5">
+            <div className="text-center w-[70vw] lg:w-[40vw] font-light mt-5">
               I build Progressive Web Apps for businesses, 
               that are responsive on both Web and Mobile. 
               No need to port your web app to Android or Play Store.

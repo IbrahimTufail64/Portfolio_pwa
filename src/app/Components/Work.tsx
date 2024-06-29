@@ -42,7 +42,7 @@ const Work = () => {
             <div className='bg-secondary h-[4px] w-[70px] rounded-xl '></div>
         </div>
         {/* counter  */}
-            <div className='bg-white w-[50vw] h-[100vh] sticky top-0 z-10'>
+            <div className='bg-white w-[50vw] h-[100vh] sticky top-0 z-10 hidden lg:block'>
             <div className='flex justify-center'>
                 <div className=' pt-[30vh] space-y-10'>
                 <div className='overflow-hidden'>

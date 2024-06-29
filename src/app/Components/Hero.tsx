@@ -9,11 +9,11 @@ const Hero = () => {
           <div className='flex justify-center ml-24 mb-10'>
           <img src={image.src} className='w-[250px]'/>
         </div>
-        <div className='text-[45px] font-black text-center  max-w-[33vw] '>
-          <div className='heading'>
+        <div className='text-[33px] px-10 lg:px-0 lg:text-[45px] font-black text-center  lg:max-w-[33vw] '>
+          <div className='heading '>
             Building Cross-Platform Progressive Web Apps For Your Business.
           </div>
-          <button className='text-[13px] group font-normal bg-secondary px-[40px] py-5 rounded-full text-white'>
+          <button className='text-[13px] group font-normal bg-secondary px-7 mt-10 lg:px-[40px] py-4 lg:py-5 rounded-full text-white'>
             <div className='flex space-x-3 group-hover:underline'>
               <div>Lets Work Together</div>
             <div >

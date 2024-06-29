@@ -23,14 +23,14 @@ const ProjectA = ({demo,setProjectName,name,count,setCounter,projectlink, setPro
   }, [elementRef]);
 
   return (
-    <div className='w-full flex justify-end h-[100vh] absolute top-24 ' ref={elementRef}>
-        <div className='w-[50vw] right-0'>
+    <div className='w-full flex lg:justify-end justify-center h-[40vh] lg:h-[100vh] absolute top-24 ' ref={elementRef}>
+        <div className='lg:w-[50vw] '>
             <img
-            className='w-[50vw]'
+            className='lg:w-[50vw]'
             src={demo} 
             />
         </div>
-        
+        <div className='lg:hidden'>{name}</div>
     </div>
   )
 }

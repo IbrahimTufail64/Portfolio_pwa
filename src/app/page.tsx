@@ -8,7 +8,7 @@ import Contact from "./Components/Contact";
 
 export default function Home() {
   return (
-    <main className="bg-white">
+    <main className="bg-white overflow-hidden lg:overflow-visible">
       <div className="bg-primary min-h-[120vh] rounded-b-[100px]">
         <header className="flex justify-between py-16 px-20 ">
           <div>ibrahimkhudai03@gmail.com</div>

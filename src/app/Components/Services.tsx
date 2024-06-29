@@ -15,7 +15,7 @@ const Services = () => {
             <div className="w-[60vw] h-[2px] bg-[#CCCCCC]"></div>
             </div>
         </div>
-        <div className='flex justify-between px-[100px] pb-[100px]'>
+        <div className='lg:flex justify-between lg:px-[100px] pb-[100px]'>
               <ServiceComp content='Experience in developing both frontends and backends of apps along with integration and app-architecture.'
                 title='Full Stack Development'
                 href={fullstack.src}
