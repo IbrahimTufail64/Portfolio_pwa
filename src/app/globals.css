@@ -113,11 +113,10 @@
  */
 #menu {
     position: absolute;
-    width: 100vw;
-    height: 110vh;
+    width: 80vw;
     margin: -100px 0 0 -50px;
     padding: 50px;
-    padding-top: 300px;
+    padding-top: 200px;
 
     background: #ffffff;
     list-style-type: none;
