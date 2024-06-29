@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <div>
-        <div className='bg-primary w-full h-[90vh]'>
+        <div className='bg-primary w-full h-[90vh] relative'>
             <div className='flex justify-center pt-[70px]'>
                 <img
                     className='w-[150px]'
@@ -16,10 +16,10 @@ const Contact = () => {
                     />
             </div>
             <div className='flex justify-center mt-10'>
-                <div className="text-[45px] font-semibold flex justify-center">Lets plan your next project</div>
+                <div className="text-[30px] max-w-[70vw] text-center lg:text-[45px] font-semibold flex justify-center">Lets plan your next project</div>
             </div>
             <div className='flex justify-center mt-10'>
-                <a href='mailto:ibrahimkhudai03@gmail.com' className='cursor-pointer text-[13px] group font-normal bg-secondary px-[40px] py-5 rounded-full text-white'>
+                <a href='mailto:ibrahimkhudai03@gmail.com' className='text-[13px] group font-normal bg-secondary px-7 lg:px-[40px] py-4 lg:py-5 rounded-full text-white'>
                     <div className='flex space-x-3 group-hover:underline'>
                     <div>Email Me</div>
                     <div >
@@ -30,9 +30,9 @@ const Contact = () => {
                 </a>
             </div>
             <div className='flex justify-center pt-[15vh]'>
-                <div className="w-[60vw] h-[2px] bg-[#CCCCCC]"></div>
+                <div className="w-[60vw] absolute bottom-[100px] h-[2px] bg-[#CCCCCC]"></div>
             </div>
-            <div className='flex justify-center space-x-10 pt-10'>
+            <div className='flex justify-center space-x-10 pt-10 absolute bottom-10 w-full'>
                 <a  href='https://github.com/IbrahimTufail64'><FaGithub size={35}/></a>
                 <a href='https://www.linkedin.com/in/ibrahim-tufail-a2b134289'><FaLinkedin size={35}/></a>
                 <a  href='mailto:ibrahimkhudai03@gmail.com'><MdEmail  size={35}/></a>
